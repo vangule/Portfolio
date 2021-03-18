@@ -1,0 +1,148 @@
+#footer{
+  width: 100%;
+  background-color: #1b242f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  margin-top: -1rem;
+}
+
+#footer .icon{
+  width: 5rem;
+  height: 5rem;
+  background-color: #444649;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+div i{
+  color: #fff;
+  font-size: 2rem;
+}
+
+#footer .icon:hover{
+  cursor: pointer;
+  background-color: #04c2c9;
+}
+
+#footer .icon-top:hover{
+  cursor: pointer;
+  background-color: #fb1f79;
+}
+
+ .chevron i{
+   font-size: 3rem;
+ }
+
+
+ .copywrite{
+   color: #444649;
+   position: absolute;
+   margin-bottom: -12rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.5rem;
+   text-transform: uppercase;
+   font-weight: 600;
+ }
+
+ .copywrite span{
+   color: #e31b6d;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   font-weight: 600;
+ }
+
+ .scroll-to-top{
+   width: 5rem;
+   height: 5rem;
+   background-color: #e31b6d;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   left: 48%;
+   margin-top: -20rem;
+   cursor: pointer;
+ }
+
+ .scroll-to-top:hover{
+   background-color: #fb1f79;
+ }
+
+ .scroll-to-top .icon-top{
+   animation: scrollTop 0.5s alternate ease infinite;
+ }
+
+ @keyframes scrollTop {
+   from{
+     transform: translateY(2px);
+   }
+   to{
+     transform: translateY(-1px);
+   }
+ }
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Big landscape tablet, laptops and desktop */
+@media (min-width: 1200px){
+
+}
+
+/* landscape tablet, low resolution laptop and desktops */
+@media (max-width: 990px){
+  
+}
+
+/* portarate , tablet , e-readers kindles */
+@media (max-width: 800px){
+  
+}
+
+/* smartphone, android phone and landscape iphone */
+@media (max-width: 600px){
+  
+}
+
+/* smartphones, portate iphone, portrate 480 x 320 phones (android) */
+@media (max-width: 480px){
+#footer .icon{
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+div i{
+  font-size: 2rem;
+}
+
+#footer .chevron{
+  width: 3rem;
+  height: 3rem;
+  margin-top: -13rem;
+}
+ .chevron i{
+   font-size: 2rem;
+ }
+
+ .copywrite{
+   font-size: 1rem;
+ }
+
+ .copywrite span{
+   font-size: 1rem;
+ }
+
+}

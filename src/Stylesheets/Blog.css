@@ -1,0 +1,160 @@
+#blog{
+  position: relative;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  background-color: #fff;
+  padding-right: 17rem;
+}
+
+.blog_title {
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: #444649;
+  position: relative;
+  left: 53%;
+}
+
+.blog_underline {
+  width: 8rem;
+  height: .3rem;
+  background-color: #444649;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  position: relative;
+  left: 47%;
+  margin-top: 5%;
+}
+
+
+.img_card{
+  width: 25rem;
+  height: 20rem;
+}
+
+.card_blog{
+  padding: 1rem;
+  opacity: 0.8;
+  color: #616161;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+
+.card_blog:hover{
+  cursor: pointer;
+  opacity: 1;
+  color: #04C2C9;
+}
+
+.card_body{
+  width: 25rem;
+}
+
+.bar {
+  height: 0.4rem;
+  width: 35%;
+  background: #04C2C9;
+  margin: 10px 0px;
+}
+
+.blog_card_title{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.blog_card_text{
+  font-size: 1.5rem;
+}
+
+.blog_card_text{
+  color: #616161;
+}
+
+.date{
+  color: #616161;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Big landscape tablet, laptops and desktop */
+@media (min-width: 1200px){
+
+}
+
+/* landscape tablet, low resolution laptop and desktops */
+@media (max-width: 990px){
+  
+}
+
+/* portarate , tablet , e-readers kindles */
+@media (max-width: 800px){
+  
+}
+
+/* smartphone, android phone and landscape iphone */
+@media (max-width: 600px){
+  
+}
+
+/* smartphones, portate iphone, portrate 480 x 320 phones (android) */
+@media (max-width: 480px){
+  #blog{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  .blog_title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .blog_underline {
+    width: 5rem;
+    height: .2rem;
+    margin-bottom: 0rem;
+    left: 52%;
+  }
+  
+  .img_card{
+    width: 25rem;
+    height: 15rem;
+  }
+  
+  .card_blog{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  
+  .bar {
+    height: 0.3rem;
+    width: 35%;
+    background: #04C2C9;
+    margin: 10px 0px;
+  }
+  
+  .blog_card_title{
+    font-size: 1.5rem;
+  }
+  
+  .blog_card_text{
+    font-size: 1.2rem;
+    color: #616161;
+  }
+  
+  .date{
+    color: #616161;
+  }
+  
+}

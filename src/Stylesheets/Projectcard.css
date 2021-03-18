@@ -1,0 +1,161 @@
+.project_gallary{
+  position: relative;
+  display: inline-flex;
+}
+
+.container {
+  position: relative;
+  width: 37rem;
+  padding: 0;
+  left: 35%;
+}
+
+.container:hover .card_img {
+  opacity: 0;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.card_img{
+  width: 100%;
+  height: 28rem;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); 
+  text-align: center;
+}
+
+h2{
+  color: #1b242f;
+  margin-top: 2rem;
+  padding-bottom: 0;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+h3{
+  color: #e31b6d;
+  padding-top: 0;
+  margin-bottom: 8rem;
+}
+
+.learn_more_btn{
+  width: 18rem;
+  height: 4rem;
+  font-size: 2rem;
+  color: #1b242f;
+  background-color: unset;
+  border: 3px solid #e31b6d;
+  border-radius: unset;
+  text-transform: uppercase;
+}
+
+.learn_more_btn:hover{
+  background-color: #e31b6d;
+  border: 3px solid #e31b6d;
+  color: #fff;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Big landscape tablet, laptops and desktop */
+@media (min-width: 1200px){
+
+}
+
+/* landscape tablet, low resolution laptop and desktops */
+@media (max-width: 990px){
+  
+}
+
+/* portarate , tablet , e-readers kindles */
+@media (max-width: 800px){
+  
+}
+
+/* smartphone, android phone and landscape iphone */
+@media (max-width: 600px){
+  
+}
+
+/* smartphones, portate iphone, portrate 480 x 320 phones (android) */
+@media (max-width: 480px){
+  
+.container {
+  position: relative;
+  width: 20rem;
+  padding: 0;
+  left: 10%;
+}
+
+.card_img{
+  width: 100%;
+  height: 15rem;
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); 
+  text-align: center;
+}
+
+h2{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+h3{
+  color: #e31b6d;
+  padding-top: 0;
+  margin-bottom: 3rem;
+}
+
+.learn_more_btn{
+  width: 12rem;
+  height: 3rem;
+  font-size: 1rem;
+}
+
+}

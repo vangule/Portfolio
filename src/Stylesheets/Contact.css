@@ -1,0 +1,179 @@
+#contact{
+  position: relative;
+  width: 100%;
+  background-color: #1e242c;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%,0% 80% );
+}
+
+.contact_page_title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding-top: 5rem;
+}
+
+.contact_title_underline{
+  width: 8rem;
+  height: .3rem;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.collabrate{
+  text-align: center;
+  color: #04c2c9;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 5rem 0 2rem 0;
+}
+
+.contact_container{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+input{
+  width: 40rem;
+  height: 3rem;
+  color: #fff;
+  border: 0;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  background-color: #444649;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+textarea{
+  width: 40rem;
+  height: 10rem;
+  color: #fff;
+  background-color: #444649;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-left: 1rem;
+  border: 0;
+}
+
+.submit_btn{
+  width: 12rem;
+  height: 4rem;
+  background-color: transparent;
+  color: #fff;
+  border: 0.3rem solid #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  float: right;
+  margin-bottom: 10rem;
+}
+
+.submit_btn:hover{
+  background-color: #e31b6d;
+  border-color: #e31b6d;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Big landscape tablet, laptops and desktop */
+@media (min-width: 1200px){
+
+}
+
+/* landscape tablet, low resolution laptop and desktops */
+@media (max-width: 990px){
+  
+}
+
+/* portarate , tablet , e-readers kindles */
+@media (max-width: 800px){
+  
+}
+
+/* smartphone, android phone and landscape iphone */
+@media (max-width: 600px){
+  
+}
+
+/* smartphones, portate iphone, portrate 480 x 320 phones (android) */
+@media (max-width: 480px){
+  #contact{
+    position: relative;
+    width: 100%;
+    background-color: #1e242c;
+    overflow: hidden;
+  }
+  
+  .contact_page_title{
+    font-size: 2rem;
+    padding-top: 5rem;
+  }
+  
+  .contact_title_underline{
+    width: 6rem;
+    height: .2rem;
+  }
+  
+  .collabrate{
+    font-size: .8rem;
+    font-weight: 700;
+    padding: 2rem 0 1rem 0;
+  }
+  
+  .contact_container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+  }
+  
+  input{
+    width: 22rem;
+    height: 2rem;
+    color: #fff;
+    border: 0;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: #444649;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  
+  textarea{
+    width: 22rem;
+    height: 6rem;
+    color: #fff;
+    background-color: #444649;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 1rem;
+    border: 0;
+  }
+  
+  .submit_btn{
+    width: 8rem;
+    height: 3rem;
+    border: 0.2rem solid #fff;
+    font-size: 1rem;
+  }
+}

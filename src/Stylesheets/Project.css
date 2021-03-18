@@ -1,0 +1,128 @@
+/* Project Work */
+#project{
+  background-color: #f5f5f5;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.page_title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: #444649;
+}
+
+.underline{
+  width: 8rem;
+  height: .3rem;
+  background-color: #444649;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.btn_container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  left: 25%;
+}
+
+.button_group{
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.btn-group .btn{
+  margin-right: 8rem;
+  width: 12rem;
+  height: 3.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color:#616161;
+  border: #616161;
+}
+
+.btn-primary{
+  background-color: unset;
+}
+
+.btn-primary:hover{
+  background-color: #e31b6d;
+  border: #e31b6d;
+  color: #fff;
+  border-radius: unset;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active{
+  background-color: #e31b6d;
+  border: #e31b6d;
+  color: #fff;
+  border-radius: unset;
+}
+
+.project_empty_div{
+  margin-bottom: 10rem;
+}
+
+.show {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Big landscape tablet, laptops and desktop */
+@media (min-width: 1200px){
+
+}
+
+/* landscape tablet, low resolution laptop and desktops */
+@media (max-width: 990px){
+  
+}
+
+/* portarate , tablet , e-readers kindles */
+@media (max-width: 800px){
+  
+}
+
+/* smartphone, android phone and landscape iphone */
+@media (max-width: 600px){
+  
+}
+
+/* smartphones, portate iphone, portrate 480 x 320 phones (android) */
+@media (max-width: 480px){
+  .page_title{
+    font-size: 2rem;
+  }
+  
+  .underline{
+    width: 8rem;
+    height: .2rem;
+  }
+  
+  .btn_container{
+    left: 0;
+  }
+  
+  .btn-group .btn{
+    margin-right: .8rem;
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color:#616161;
+    border: #616161;
+    padding: .5rem;
+  }
+}

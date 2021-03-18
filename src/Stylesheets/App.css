@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+.landing_page {
+  background-image: url("../Images/bg-22222.jpg");
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-content: center; 
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.short_intro{
+  margin-bottom: -300px;
+  color: #ffffff;
+}
+
+.short_intro span{
+  color: #e31b6d;
+}
+
+.short_intro h1{
+  font-size: 4rem
+}
+
+.view_my_work_btn{
+  margin-top: -400px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.view_my_work_btn button{
+  width: 20rem;
+  height: 5rem;
+  font-size: 2rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: unset;
+  cursor: pointer;
+}
+
+.view_my_work_btn button a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.view_my_work_btn button:hover{
+  background-color: #e31b6d;
+  border-color: #e31b6d;
+}
+
+
+/* Navbar  */
+.sticky-top{
+  position: sticky;
+}
+
+.empty_space{
+  margin-right: 15rem;
+}
+
+.menu_bar_icon{
+  position: absolute;
+  top: 0.8rem;
+  right: 2rem;
+}
+
+.menu_bar_icon:hover{
+ color: #e31b6d;
+}
+
+.navbar{
+  height: 5rem;
+  font-size: 1.5rem;
+  border-bottom: 5px solid #04c2c9;
+  background-color: #1b242f;
+}
+
+.menu_bar a{
+  color: white;
+  margin-right: 2rem ;
+}
+
+.menu_bar a:hover{
+  color: #e31b6d;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.active_class{
+  color: #e31b6d;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Big landscape tablet, laptops and desktop */
+@media (min-width: 1200px){
+
+}
+
+/* landscape tablet, low resolution laptop and desktops */
+@media (max-width: 990px){
+  
+}
+
+/* portarate , tablet , e-readers kindles */
+@media (max-width: 800px){
+  
+}
+
+/* smartphone, android phone and landscape iphone */
+@media (max-width: 600px){
+  .short_intro h1{
+    font-size: 1.8rem
+  }
+
+  .view_my_work_btn button{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+  }
+
+  .view_my_work_btn button i{
+    font-size: 1rem;
+  }
+
+  .view_my_work_btn button:hover{
+    background-color: #e31b6d;
+    border-color: #e31b6d;
+  }
+  
+  .navbar{
+    height: 3.5rem;
+    font-size: 1rem;
+  }
+
+  .menu_bar a{
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .menu_bar.responsive{
+    width: 100% !important;
+    height: 80vh !important;
+    background-color: #1b242f;
+    position: relative;
+  }
+}
+
+/* smartphones, portate iphone, portrate 480 x 320 phones (android) */
+@media (max-width: 480px){
+  .short_intro h1{
+    font-size: 1.8rem
+  }
+
+  .view_my_work_btn button{
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+  }
+
+  .view_my_work_btn button i{
+    font-size: 1rem;
+  }
+
+  .view_my_work_btn button:hover{
+    background-color: #e31b6d;
+    border-color: #e31b6d;
+  }
+  
+  .navbar{
+    height: 3.5rem;
+    font-size: 1rem;
+  }
+
+  .menu_bar a{
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .menu_bar.responsive{
+    width: 100% !important;
+    height: 80vh !important;
+    background-color: #1b242f;
+    position: relative;
+  }
+}
+
